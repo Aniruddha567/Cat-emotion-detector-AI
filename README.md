@@ -20,14 +20,14 @@ A real-time computer vision project that detects cat faces and classifies their 
 ## 📁 Folder Structure
 
 project/
-│
-├── best_model.h5 # Trained emotion classification model
-├── runs/ # YOLOv8 training output (weights, logs)
-├── images/ # Optional test images
-├── app.py # Real-time detection and emotion classification
-├── requirements.txt # All dependencies
-└── README.md # You're reading this!
-
+├── best_model.h5           # Trained emotion classification model
+├── yolov8n.pt              # YOLOv8 model file
+├── runs/                   # YOLOv8 training output (weights, logs)
+├── dataset1/               # Training images (cat faces)
+├── dataset2/               # Validation images (cat faces)
+├── app.py                  # Real-time detection and emotion classification script
+├── requirements.txt        # All dependencies
+└── README.md               # Project documentation
 
 ---
 
